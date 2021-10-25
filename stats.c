@@ -35,10 +35,8 @@ float max(const float* numberset, int setlength)
  }
     return  s.max;
 }
-int main()
+int main(const float* numberset, int setlength)
 {
-    float numberset[] = {1.5, 8.9, 3.2, 4.5};
-    int setlength = 4;
     avg(numberset, setlength);
     printf("avg = %f\n", s.average);
     min(numberset, setlength);
