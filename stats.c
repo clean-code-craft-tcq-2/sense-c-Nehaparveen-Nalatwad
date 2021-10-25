@@ -1,4 +1,5 @@
 #include "stats.h"
+#include <cstdio>
 float avg(const float* numberset, int setlength)
 {
     for(int i = 0; i < setlength; i++)
