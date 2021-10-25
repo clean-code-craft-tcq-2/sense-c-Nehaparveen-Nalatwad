@@ -35,7 +35,7 @@ float max(const float* numberset, int setlength)
  }
     return  s.max;
 }
-void main()
+int main()
 {
     float numberset[] = {1.5, 8.9, 3.2, 4.5};
     int setlength = 4;
