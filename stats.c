@@ -35,12 +35,12 @@ float max(const float* numberset, int setlength)
  }
     return  s.max;
 }
-int main(const float* numberset, int setlength)
+int compute_statistic(const float* numberset, int setlength)
 {
-    avg(numberset, setlength);
+    average = avg(numberset, setlength);
     printf("avg = %f\n", s.average);
-    min(numberset, setlength);
+    minimum = min(numberset, setlength);
     printf("min = %f\n", s.min);
-    max(numberset, setlength);
+    maximum = max(numberset, setlength);
     printf("max = %f\n", s.max); 
 }
