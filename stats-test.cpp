@@ -12,7 +12,7 @@ TEST_CASE("reports average, minimum and maximum") {
     //float avg = 0.0;
     //float min = 0.0;
     //float max = 0.0;
-    int main();
+    int main(numberset, setlength);
     float epsilon = 0.001;
     REQUIRE(abs(s.average - 4.525) < epsilon);
     //REQUIRE(abs(computedStats.max - 8.9) < epsilon);
